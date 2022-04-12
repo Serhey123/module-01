@@ -1,0 +1,87 @@
+h2,
+h3 {
+  font-weight: 100;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 120px;
+}
+.nav-links .link {
+  color: rgb(98, 98, 98);
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+}
+.nav-links .link:hover {
+  color: rgb(3, 169, 244);
+}
+.title {
+  color: rgb(98, 98, 98);
+  font-family: "Playfair Display", serif;
+}
+.subtitle {
+  font-size: 14px;
+  color: rgb(180, 173, 158);
+  line-height: 1.2;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+.text {
+  color: rgb(98, 98, 98);
+  font-family: "Playfair Display", serif;
+  width: 420px;
+}
+.button {
+  width: 100%;
+  text-align: center;
+}
+button {
+  font-size: 17px;
+  color: rgb(3, 169, 244);
+  width: 130px;
+  height: 50px;
+  margin: 40px;
+  font-family: "Ubuntu", sans-serif;
+  background-color: white;
+  border: 1px solid #000000;
+}
+.first {
+  width: 45%;
+  display: inline-block;
+  /* margin: 15px; */
+  margin-left: 120px;
+}
+.second {
+  width: 45%;
+  display: inline-block;
+  /* margin: 15px; */
+}
+.third {
+  width: 45%;
+  display: inline-block;
+  /* margin: 15px; */
+  margin-left: 120px;
+  margin-top: 150px;
+}
+.fourth {
+  width: 45%;
+  display: inline-block;
+  /* margin: 15px; */
+  margin-top: 150px;
+}
+.fifth {
+  width: 45%;
+  display: inline-block;
+  /* margin: 15px; */
+  margin-left: 120px;
+  margin-top: 150px;
+}
+.sixth {
+  width: 45%;
+  display: inline-block;
+  /* margin: 15px; */
+  margin-top: 150px;
+}
