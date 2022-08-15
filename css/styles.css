@@ -40,48 +40,16 @@ h3 {
 }
 button {
   font-size: 17px;
-  color: rgb(3, 169, 244);
+  color: rgb(98, 98, 98);
   width: 130px;
   height: 50px;
   margin: 40px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Playfair Display", serif;
   background-color: white;
   border: 1px solid #000000;
 }
-.first {
-  width: 45%;
-  display: inline-block;
-  /* margin: 15px; */
-  margin-left: 120px;
-}
-.second {
-  width: 45%;
-  display: inline-block;
-  /* margin: 15px; */
-}
-.third {
-  width: 45%;
-  display: inline-block;
-  /* margin: 15px; */
-  margin-left: 120px;
-  margin-top: 150px;
-}
-.fourth {
-  width: 45%;
-  display: inline-block;
-  /* margin: 15px; */
-  margin-top: 150px;
-}
-.fifth {
-  width: 45%;
-  display: inline-block;
-  /* margin: 15px; */
-  margin-left: 120px;
-  margin-top: 150px;
-}
-.sixth {
-  width: 45%;
-  display: inline-block;
-  /* margin: 15px; */
-  margin-top: 150px;
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
